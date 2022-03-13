@@ -1,0 +1,58 @@
+/* Page General styles */
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url(header.jpg) no-repeat center center/cover fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/* Heading */
+h1 {
+  color: #e2dbdb;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+/* Hr line Styling  */
+
+hr {
+  margin: 20px auto;
+  color: #f05f44;
+  border: 3px solid #f05f44;
+  max-width: 65px;
+  opacity: 1;
+}
+
+/* / Buffer zone  */
+
+.buffer {
+  height: 12rem;
+}
+
+/* Button Styling  */
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #f05f44;
+  color: #e2dbdb;
+  border-color: #f05f44;
+}
+
+.btn-primary:hover {
+  background-color: #e2dbdb;
+  border-color: #e2dbdb;
+  border: 4px;
+}
